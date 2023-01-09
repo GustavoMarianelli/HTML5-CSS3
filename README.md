@@ -3,4 +3,10 @@
 
  <a href="https://gustavomarianelli.github.io/HTML5-CSS3/Exercicios/Modulo02/desafio10/"> Desafio do Módulo 2 </a>
 
+<p>qr-code do site</p>
+ <picture>
+    <img src="./Exercicios/Modulo02/desafio10/qr-code/frame.png" alt="qr code da página">
+ </picture>
+ 
+
 
