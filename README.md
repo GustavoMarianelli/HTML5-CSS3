@@ -7,6 +7,8 @@
  <picture>
     <img src="./Exercicios/Modulo02/desafio10/qr-code/frame.png" alt="qr code da página">
  </picture>
+
+
  
 
 
