@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telefone e email</title>
+</head>
+<body>
+    <form action="" method="get">
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <p>
+                <label for="id_email">E-mail</label>
+                <input type="email" name="email" id="id_email" placeholder="e-mail">
+            </p>
+            <p>
+                <label for="id_tel">Telefone</label>
+                <input type="tel" name="tel" id="id_tel" autocomplete="tel" pattern="^{6,7}-\d{4}$" placeholder="xxxxxxx-xxxx" required >
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
